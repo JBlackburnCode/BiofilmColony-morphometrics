@@ -1,10 +1,10 @@
 """Validate the automated pipeline against manual ImageJ colony area measurements.
 
 Reprocesses a folder of real plate photographs through the pipeline and
-compares the resulting colony area against a CSV of areas measured by hand
-in ImageJ (the workflow this tool automates -- see the README's "Validation"
-section). Reports Pearson correlation and Bland-Altman agreement, and saves
-scatter + Bland-Altman plots.
+compares the resulting colony area against a CSV of areas measured in
+ImageJ with the Quant-it macro (the workflow this tool automates -- see the
+README's "Validation" section). Reports Pearson correlation and Bland-Altman
+agreement, and saves scatter + Bland-Altman plots.
 
 Usage
 -----
