@@ -244,8 +244,9 @@ BiofilmColony-morphometrics/
 pytest -v
 ```
 
-35 tests covering shape/texture metrics against synthetic masks with known
+47 tests covering shape/texture metrics against synthetic masks with known
 geometry, calibration maths against a known dish radius and against
 synthetic ImageJ-format TIFF metadata, segmentation correctness on synthetic
-plates, and batch processing continuing past a deliberately corrupt file —
-no real photographs required.
+plates, batch processing continuing past a deliberately corrupt file, CLI
+argument wiring, and the GUI's per-image parameter override logic — no real
+photographs required.
